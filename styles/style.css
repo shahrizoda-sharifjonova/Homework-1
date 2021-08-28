@@ -86,3 +86,25 @@ body{
 .intro__img{
     pointer-events: none;
 }
+.intro__btns{
+    margin-top: 30px;
+}
+
+.intro__btn{
+    text-decoration: none;
+    color: rgb(107, 201, 201);
+    border: 1px solid rgb(107, 201, 201);
+    padding: 10px 20px;
+    transition: 0.6s;
+}
+
+.intro__btn:hover{
+    color: #fff;
+    background: rgb(107, 201, 201);
+}
+
+.map{
+    width: 100%;
+    height: calc(100vh - 80px);
+    margin-top: 80px;
+}
